@@ -15,3 +15,7 @@ when there is a request to the page, it just shows down the console
 using handlebars
 
 ## Index Routes & Views
+
+## Materialize & Font Awesome
+
+grab CDN from https://materializecss.com/getting-started.html
