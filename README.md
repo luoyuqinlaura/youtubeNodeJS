@@ -9,3 +9,7 @@
 ## Morgan Logger
 
 when there is a request to the page, it just shows down the console
+
+## Template Engine & Layouts
+
+using handlebars
