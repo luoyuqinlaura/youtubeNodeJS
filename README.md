@@ -27,3 +27,7 @@ grab CDN from https://materializecss.com/getting-started.html
 <img src="loginPic.png">
 google console platform -> enable google+ api -> create credentials -> Oauth client ID
 Passport-google-oauth20 (configure strategy + authenticate)
+
+## Auth routes
+
+the profile contains: displayname, name, photo and other informations

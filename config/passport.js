@@ -6,8 +6,8 @@ module.exports = function (passport) {
   passport.use(
     new GoogleStrategy(
       {
-        clientID: GOOGLE_CLIENT_ID,
-        clientSecret: GOOGLE_CLIENT_SECRET,
+        clientID: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
         callbackURL: '/auth/google/callback',
       },
       async function (accessToken, refreshToken, profile, cb) {
@@ -19,6 +19,7 @@ module.exports = function (passport) {
     )
   );
 
+  /* the comment lines are provided by the passport document */
   passport.serializeUser(function (user, cb) {
     // process.nextTick(function () {
     //   return cb(null, {
